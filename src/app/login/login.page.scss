@@ -1,0 +1,91 @@
+ ion-content{
+    --background: #0066cc;
+    
+
+    #logo {
+        width:50px;
+        height:50px;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+
+    .header{
+        padding: 0 12vw;
+        margin-top: 9em;
+        color: #fff;
+        h3{
+            font-size: 1.1rem;
+            color: #000000;
+            span{
+                color: #fff;
+            }
+        }
+        h1{
+            font-size: 2.2rem;
+            font-weight: 400;
+        }
+    }
+
+
+    .form{
+        padding: 0 12vw;
+        margin-top: 70px;
+        ion-input{
+            --background: #00cc66;
+            --padding-start :33px;
+            height: 55px;
+            border-radius: 25px;
+            margin-bottom: 22px;
+            --placeholder-color: #9d9bef;
+            --color: #fff;
+        }
+    }
+
+    .button{
+        width: 50vw;
+        background-color: #0099ff;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+        font-weight: 500;
+        justify-content: flex-end;
+
+
+          ion-icon{
+            margin-left: 30px;
+          }
+    }
+
+    .signup{
+        margin-top: 50px;
+        background-color: #0099ff;
+    
+    }
+    .footer{
+        color: #fff;
+        padding: 0 12vw;
+        margin-top: 100px;
+        text-align: center;
+
+        h3{
+            font-size: 1rem;
+            font-weight: 400;
+
+            span{
+                font-size: 1.2rem;
+                color: #000000;
+                font-weight:500;
+            }
+        }
+    }
+    .signup-footer{
+        margin-top: 80px;
+
+    }
+ }

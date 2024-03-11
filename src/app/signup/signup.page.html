@@ -1,0 +1,21 @@
+<ion-content style="border-left: #ff987b;">
+  
+  <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+  
+  <div class="header">
+    <h3>Join the community, start the experience! </h3>
+    <h1>Create a<br>New Account</h1>
+  </div>
+  <div class="form">
+    <ion-input formControlName="email" type="email" placeholder="Email"></ion-input>
+    <ion-input formControlName="password" type="password" placeholder="Password" ></ion-input>
+  </div>   
+  <div class="button signup">
+   Sign Up <ion-icon name="chevron-forward-outline" (click)="signUp()"></ion-icon>
+  </div>
+  <div class="footer signup-footer">
+    <h3 routerLink="/login">Already have an account?<span>Login</span></h3>
+  </div>
+
+</form>
+</ion-content>
